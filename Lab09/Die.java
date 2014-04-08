@@ -64,4 +64,8 @@ public class Die {
         result = "Num Sides: " + numSides + "\nFace Value: " + faceValue;
         return result;
     }
+
+    public int getFaceValue() {
+        return faceValue;
+    }
 }
